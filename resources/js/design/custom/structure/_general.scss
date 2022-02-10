@@ -1,0 +1,90 @@
+.table-dark {
+    tbody {
+        tr {
+            color: black;
+            background: #ccd2d7;
+            text-align: center;
+        }
+    }
+    thead {
+        tr {
+            background-color: #404354;
+        }
+        th {
+            text-align: center;
+        }
+    }
+}
+.reduced-table {
+    th, td {
+        padding: 1px 8px;
+        text-align: center;
+    }
+}
+.ranking-table {
+    thead {
+        tr {
+            background: #eaf981;/*Amraillo cabecera*/
+            color: black;
+            th[aria-colindex="1"] {
+                background: #3dfc58;/*verde columnas izquierda*/
+            }
+            th[aria-colindex="2"] {
+                background: #3dfc58;/*verde columnas izquierda*/
+            }
+            th[aria-colindex="3"] {
+                background: #3dfc58;/*verde columnas izquierda*/
+            }
+            th[aria-colindex]:nth-last-child(1) {
+                background: #d6d7d6;/*Azul cabecera*/
+                color: grey;
+            }
+            th[aria-colindex]:nth-last-child(2) {
+                background: #d6d7d6;/*Azul cabecera*/
+                color: grey;
+            }
+            th[aria-colindex]:nth-last-child(3) {
+                background: #d6d7d6;/*Azul cabecera*/
+                color: grey;
+            }
+        }
+    }
+    tbody {
+        tr {
+            background: #feffbc;/*amarillo puntos*/
+            color: black;
+            td[aria-colindex="1"] {
+                background: #d6d7d6;/*gris puntos*/
+            }
+            td[aria-colindex="2"] {
+                background: #d6d7d6;/*gris puntos*/
+            }
+            td[aria-colindex="3"] {
+                background: #d6d7d6;/*gris puntos*/
+            }
+            td[aria-colindex]:nth-last-child(1) {
+                background: #d6d7d6;/*gris puntos 3 mejores*/
+                color: grey;
+            }
+            td[aria-colindex]:nth-last-child(2) {
+                background: #d6d7d6;/*gris puntos 3 mejores*/
+                color: grey;
+            }
+            td[aria-colindex]:nth-last-child(3) {
+                background: #d6d7d6;/*gris puntos 3 mejores*/
+                color: grey;
+            }
+        }
+    }
+}
+.table i {
+    width: 12px;
+}
+.main-content {
+    min-height: 900px;
+}
+.btn-orange {
+    color: #fff;
+    background-color: #da7d09;
+    border-color: #da7f0e;
+}

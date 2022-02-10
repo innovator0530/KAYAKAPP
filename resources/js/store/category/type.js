@@ -1,0 +1,7 @@
+const type = {
+    SET_ALL_CATEGORIES: 'SET_ALL_CATEGORIES',
+    SET_CATEGORY: 'SET_CATEGORY',
+    SET_CATEGORY_OPTIONS: 'SET_CATEGORY_OPTIONS',
+}
+
+export default type;
